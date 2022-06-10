@@ -40,7 +40,7 @@ use it well
 
 
 
-+ Pergi Ke Action <Klik Select workflow< Pilih Har Pito,Pencet Run workflow
++ Pergi Ke Action <Klik Select workflow< Pilih LuckRDP,Pencet Run workflow
 
 
 
@@ -56,7 +56,7 @@ use it well
 
 
 
-+  ```Peringatan jika Rdp close silahkan klik Action<Pilih Luck <Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
++  ```Peringatan jika Rdp close silahkan klik Action<Pilih LuckRDP <Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
 
 
 
