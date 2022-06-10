@@ -56,7 +56,7 @@ use it well
 
 
 
-+  ```Peringatan jika Rdp close silahkan klik Action<Pilih Har Pito<Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
++  ```Peringatan jika Rdp close silahkan klik Action<Pilih Luck <Klik build, Klik titik tiga klik run-rensjob dan jalan kan lagi Rdp nya```
 
 
 
