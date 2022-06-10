@@ -1,4 +1,4 @@
-name: ZactechRDP
+name: LuckRDP
 
 on: workflow_dispatch
 
