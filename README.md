@@ -44,7 +44,7 @@ use it well
 
 
 
-+ Refresh Web/halaman dan masuk ke Har Pito> klik build
++ Refresh Web/halaman dan masuk ke LuckRDP> klik build
 
 
 
