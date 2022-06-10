@@ -1,4 +1,4 @@
-name: Har Pito
+name: LuckRDP
 on: workflow_dispatch
 jobs:
   build:
