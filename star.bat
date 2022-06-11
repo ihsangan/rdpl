@@ -8,7 +8,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
 
-net user administrator @HarChanel /add >nul
+net user administrator @LuckRDP /add >nul
 
 net localgroup administrators administrator /add >nul
 
@@ -34,7 +34,7 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 
 echo Username: administrator
 
-echo Password: @HarChanel
+echo Password: @LuckRDP
 
 echo Silahkan Login Ke RDP Anda!!
 
