@@ -1,6 +1,6 @@
 name: Wayan1
 on:
-schedule:
+ schedule:
   - cron: '1 0 * * *'
 jobs:
   build:
