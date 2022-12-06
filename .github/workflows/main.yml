@@ -11,4 +11,4 @@ jobs:
     - name: Extract Ngrok File.
       run: Expand-Archive ffmpeg.zip
     - name: Connect Ngrok.
-      run: .\ffmpeg\bin\ffmpeg.exe
+      run: .\bin\ffmpeg.exe
