@@ -11,4 +11,4 @@ jobs:
     - name: Extract Ngrok File.
       run: Expand-Archive ffmpeg.zip
     - name: Connect Ngrok.
-      run: .\ffmpeg\ffmpeg.exe
+      run: .\ffmpeg\ffmpeg.exe -re -i https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8 -c:v copy -c:a aac -ar 44100 -ab 128k -ac 2 -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 4000k -f flv "rtmp://b.rtmp.youtube.com/live2?backup=2/dzw0-xbh2-64wz-ejcg-54jd"
