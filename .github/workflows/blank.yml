@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg && ffmpeg -re -i https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8 -c:v copy -c:a aac -ar 44100 -ab 128k -ac 2 -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 4000k -f flv "rtmp://b.rtmp.youtube.com/live2?backup=2/dzw0-xbh2-64wz-ejcg-54jd"
+        run:  git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg && ls && cd ffmpeg && ffmpeg -re -i https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8 -c:v copy -c:a aac -ar 44100 -ab 128k -ac 2 -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 4000k -f flv "rtmp://b.rtmp.youtube.com/live2?backup=2/dzw0-xbh2-64wz-ejcg-54jd"
