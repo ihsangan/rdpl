@@ -1,0 +1,14 @@
+name: Wayan
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 70
+    steps:
+    - name: Download Ngrok.
+      run: |
+        Invoke-WebRequest https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip -OutFile ffmpeg.zip
+    - name: Extract Ngrok File.
+      run: Expand-Archive ffmpeg.zip
+    - name: Connect Ngrok.
+      run: .\ffmpeg\bin\ffmpeg.exe
