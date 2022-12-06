@@ -1,7 +1,5 @@
 name: Wayan1
-on:
- schedule:
-  - cron: '23 9 * * *'
+on: workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
