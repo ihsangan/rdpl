@@ -1,4 +1,4 @@
-name: Wayan
+name: Wayan1
 on: workflow_dispatch
 jobs:
   build:
@@ -7,8 +7,8 @@ jobs:
     steps:
     - name: Download Ngrok.
       run: |
-        Invoke-WebRequest https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip -OutFile ffmpeg.zip
+        Invoke-WebRequest https://raw.githubusercontent.com//muwatas2/rdpmuwatas/main/ffmpeg.zip -OutFile ffmpeg.zip
     - name: Extract Ngrok File.
       run: Expand-Archive ffmpeg.zip
     - name: Connect Ngrok.
-      run: .\bin\ffmpeg.exe
+      run: .\ffmpeg.exe
