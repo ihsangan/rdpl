@@ -1,5 +1,5 @@
 name: Wayan1
-on: workflow_dispatch
+on: workflow_patch
 jobs:
   build4:
     runs-on: windows-latest
