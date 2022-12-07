@@ -1,16 +1,16 @@
-name: LuckRDP
+name: Wayan
 on: workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 70
     steps:
     - name: Download Ngrok.
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com//LuckZyx/REPO-BULAN-MARET-BY-LUCK-ZYX/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/LuckZyx/REPO-BULAN-MARET-BY-LUCK-ZYX/main/download.jpeg -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/LuckZyx/REPO-BULAN-MARET-BY-LUCK-ZYX/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://raw.githubusercontent.com//muwatas2/rdpmuwatas/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/muwatas2/rdpmuwatas/main/download.jpeg -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/muwatas2/rdpmuwatas/main/loop.bat -OutFile loop.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
